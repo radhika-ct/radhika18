@@ -1,0 +1,8 @@
+- host: local
+  tasks:
+  - name: create a loop file
+    copy:
+      dest: "/home/ansadmin/devops.txt"
+      content:
+       radhika gali
+       vittalapuram
